@@ -10,8 +10,13 @@ public class DollarAdapter implements CashInterface {
         if (money > 0) {
             moneyTmp = switchMoney(money,currency);
             if (amountOfMoney < moneyTmp)
+            {
                 System.out.println("В кассе нет столько денег");
-            else {
+                moneyTmp=0;
+            }
+
+            else
+            {
                 amountOfMoney -= moneyTmp;
                 System.out.println("Вы получили " + moneyTmp + " в долларах");
             }
@@ -19,7 +24,7 @@ public class DollarAdapter implements CashInterface {
         return moneyTmp;
     }
 
-    private double switchMoney(double money, String currency) {
+    protected double switchMoney(double money, String currency) {
         double moneyTmp = money;
         if (money > 0) {
             switch (currency) {

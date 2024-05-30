@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa5721fe-42f3-40d0-95d1-b73d584268af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cashAdapter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CashAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CashInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DollarAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EuroAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="fa5721fe-42f3-40d0-95d1-b73d584268af" name="Changes" comment="1 часть сделана">
+      <change afterPath="$PROJECT_DIR$/tests/TestSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cashAdapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cashAdapter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DollarAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DollarAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.TestSource.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -77,11 +74,24 @@
       <option name="presentableId" value="Default" />
       <updated>1717087184182</updated>
       <workItem from="1717087185213" duration="2506000" />
-      <workItem from="1717089715554" duration="1392000" />
+      <workItem from="1717089715554" duration="2159000" />
     </task>
+    <task id="LOCAL-00001" summary="1 часть сделана">
+      <option name="closed" value="true" />
+      <created>1717091185845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717091185845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 часть сделана" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 часть сделана" />
   </component>
 </project>
